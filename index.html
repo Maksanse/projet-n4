@@ -4,6 +4,21 @@
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Nina Carducci's website, photographer in Bordeaux">
 	<meta name="google-site-verification" content="GKeTdK2bUUElE5xdLrv4tL-VtFmu2fp0cOySdAKXYLA" />
+
+	<meta property="og:site_name" content="NinaCarducci" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://Nina-Carducci.fr" />
+	<meta property="og:title" content="Nina-Carducci" />
+	<meta property="og:description" content="Come discover my photos and let yourself be tempted by a superb photo shoot." />
+	<meta property="og:image" content="./assets/images/nina-carducci.jpg" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@NinaCarducci" />
+	<meta name="twitter:title" content="Nina-Carducci" />
+	<meta name="twitter:description" content="Come discover my photos and let yourself be tempted by a superb photo shoot." />
+	<meta name="twitter:image" content="./assets/images/nina-carducci.jpg" />
+	<meta name="twitter:url" content="http://Nina-Carducci.fr" />
+	
 	<title>Nina Carducci</title>
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
@@ -71,7 +86,8 @@
 			<p>We spend our lives searching for happiness, and once we find it, we want to celebrate it as a photograph to share with the people we love or to show to as many people as possible.
 				This is what I have to offer, capturing these beautiful moments from my perspective, my approach, and my technique. Immortalize these moments so they bring you love, happiness, affection, and light every time you look at your photos.</p>
 		</div>
-		<div itemscope itemtype = "https://schema.org/Person" >  
+
+		<!-- <div itemscope itemtype = "https://schema.org/Person" >  
 			<span itemprop = "name" > Nina carducci </span>  
 		  
 			<span itemprop = "jobTitle" > Photographer </span> 
@@ -80,11 +96,33 @@
 			  	<span itemprop = "addressLocality" > Bordeaux </span> , 
 			  	<span itemprop = "postalCode" > 33200 </span>
 			  	<p> phone number: <span itemprop = "telephone" >05 56 67 78 89</span> </p>
-				  <div itemscope itemtype="https://schema.org/Pharmacy">
-				  <span itemprop="openingHours" content="Mo,Tu,We,Th,Fr 10:00-19:00">Available by phone Monday to Friday from 10 a.m. to 7 p.m.</span>
-					
+
+					<div itemscope itemtype="https://schema.org/Action">
+						<span itemprop="startTime" content="Mo,Tu,We,Th,Fr 10:00 am"></span>
+						<span itemprop="endTime" content="Mo,Tu,We,Th,Fr 07:00 pm"></span>
 					</div>
-			</div>
+			</div> -->
+
+
+<script type="application/ld+json">   
+	{
+		 "@context": "https://schema.org",
+		 "@type": "LocalBusiness",
+		 "address": {       
+		   "@type": "PostalAddress",
+		   "addressLocality": "Bordeaux",
+		   "addressRegion": "Nouvelle-Aquitaine",
+		   "postalCode": "33063",
+		   "streetAddress": "68 avenue Alsace-Lorraine",
+		   "addressCountry" : "FR"
+		 },
+		 "description": "Photographer",
+		 "name": "Nina Carducci",
+		 "telephone": "0556677889",
+		 "image": "./assets/images/nina-carducci.jpg",
+		 "openingHours" : "Mo,Fr 10:00-19:00"
+	}
+	</script>
 			
 	</article>
 </section>
